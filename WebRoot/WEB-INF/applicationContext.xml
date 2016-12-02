@@ -9,7 +9,7 @@
 	<!-- 配置数据源，这里为DBCP数据库连接池 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://100.71.195.101:3306/db_database10" />
+		<property name="url" value="jdbc:mysql://221.237.66.217:3306/db_database10" />
 		<property name="username" value="zlw" />
 		<property name="password" value="zlw0920" />
 	</bean>
