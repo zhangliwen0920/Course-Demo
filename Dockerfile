@@ -1,7 +1,7 @@
 
 FROM tomcat:2.0
 MAINTAINER <zhangliwen_0920@126.com>
-ENV REFRESHED_AT 2016/3/15
+ENV REFRESHED_AT 2016/04/15
 
 ADD 10.war /usr1/tomcat/apache-tomcat-7.0.68/webapps/10.war
 EXPOSE 8080
